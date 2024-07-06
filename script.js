@@ -10,3 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setInterval(rotateLine, 20);
 });
+
+document.adddEventListener('DOMContentLoaded',()=>{
+	const line =document.getElementById('line');
+	const angle=0;
+
+	function rotateline()
+		{
+			angle=(angle+2)%360;
+			line.style.transform=`translate(-50%`
+		}
+})
